@@ -8,15 +8,18 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>排序算法的一点感悟(1) | guoqi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="算法">
+  <meta name="description" content="本科阶段浑浑噩噩跟着老师学完排序后,到了研究生阶段发现并没有理解其中的奥妙和各种算法之间的关系,遂再次进行探究,并写一点自己的见解.废话不多说,本篇博文先介绍一些非核心的辅助函数和最简单的选择排序算法.(完整代码已上传至github,https://github.com/guoqi47/Leetcode/blob/master/Algorithm/Soring.java)由于在实际应用中我们要对多">
+<meta name="keywords" content="算法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="排序算法的一点感悟(1)">
 <meta property="og:url" content="http://yoursite.com/2018/07/29/排序算法的一点感悟-1/index.html">
 <meta property="og:site_name" content="guoqi">
+<meta property="og:description" content="本科阶段浑浑噩噩跟着老师学完排序后,到了研究生阶段发现并没有理解其中的奥妙和各种算法之间的关系,遂再次进行探究,并写一点自己的见解.废话不多说,本篇博文先介绍一些非核心的辅助函数和最简单的选择排序算法.(完整代码已上传至github,https://github.com/guoqi47/Leetcode/blob/master/Algorithm/Soring.java)由于在实际应用中我们要对多">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-29T08:05:05.836Z">
+<meta property="og:updated_time" content="2018-07-29T11:14:33.831Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="排序算法的一点感悟(1)">
+<meta name="twitter:description" content="本科阶段浑浑噩噩跟着老师学完排序后,到了研究生阶段发现并没有理解其中的奥妙和各种算法之间的关系,遂再次进行探究,并写一点自己的见解.废话不多说,本篇博文先介绍一些非核心的辅助函数和最简单的选择排序算法.(完整代码已上传至github,https://github.com/guoqi47/Leetcode/blob/master/Algorithm/Soring.java)由于在实际应用中我们要对多">
   
     <link rel="alternative" href="/atom.xml" title="guoqi" type="application/atom+xml">
   
@@ -182,7 +185,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>本科阶段浑浑噩噩跟着老师学完排序后,到了研究生阶段发现并没有理解其中的奥妙和各种算法之间的关系,遂再次进行探究,并写一点自己的见解.<br>废话不多说,本篇博文先介绍一些非核心的辅助函数和最简单的选择排序算法.(完整代码已上传至github,<a href="https://github.com/guoqi47/Leetcode/blob/master/Algorithm/Soring.java" target="_blank" rel="noopener">https://github.com/guoqi47/Leetcode/blob/master/Algorithm/Soring.java</a>)<br>由于在实际应用中我们要对多种数据类型进行排序,所以我们的算法需要对实现Comparable接口的任意数据类型进行排序,实际上Java中Integer,Double,String和File,URL等类型均已实现的Comparable接口.如果我们需要对自己写的类型进行排序,实现Comparable接口后,直接丢到我们的排序算法就ok啦~<br>这么管用的Comparable接口咋实现呢,很简单,实现compareTo方法就行,一般是返回-1,0,1</p>
+
       
 
       

@@ -334,9 +334,11 @@
 <link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
 <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
+var str = window.location.pathname;
+var _str = str.spilt("/");
 var gitment = new Gitment({
   id: "http://yoursite.com/2018/07/29/排序算法的一点感悟-1/index.html",
-  owner: 'guoqi47',
+  owner: _str[_str.length - 2],
   repo: 'guoqi47.github.io',
   oauth: {
     client_id: 'dce985e3e48f51585a30',

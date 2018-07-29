@@ -330,12 +330,12 @@
 
 
   
-  <!-- Gitment评论插件通用代码 -->
-<div id="git"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
+  id: "Sun Jul 29 2018 16:04:02 GMT+0800",
   owner: 'guoqi47',
   repo: 'guoqi47.github.io',
   oauth: {
@@ -343,9 +343,8 @@ var gitment = new Gitment({
     client_secret: 'c82fc6da1d8de2844aa1137cbf273a23a55d51fc',
   },
 })
-gitment.render('git')
+gitment.render('gitment-ctn')
 </script>
-<!-- Gitment代码结束 -->
   
 
 
